@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>ToDo List - A jQuery Project</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
   <script src="assets/js/lib/jquery-3.3.1.min.js"></script>
 </head>
@@ -13,18 +16,26 @@
 <body>
 
   <div id="container">
-    <h1>ToDo List</h1>
-    <input type="text">
+    <h1>ToDo List
+      <i class="fas fa-plus"></i>
+    </h1>
+    <input type="text" placeholder="Add new ToDo...">
 
     <ul>
       <li>Go to potions class
-        <span>X</span>
+        <span>
+          <i class="fas fa-trash-alt"></i>
+        </span>
       </li>
       <li>Buy new robes
-        <span>X</span>
+        <span>
+          <i class="fas fa-trash-alt"></i>
+        </span>
       </li>
       <li>Visit Hagrid
-        <span>X</span>
+        <span>
+          <i class="fas fa-trash-alt"></i>
+        </span>
       </li>
     </ul>
   </div>
