@@ -17,3 +17,8 @@ $('input[type="text"]').keypress(function (e) {
     $('ul').append(`<li>${todoText} <span><i class="fas fa-trash-alt"></i></span></li>`);
   }
 });
+
+$('#form-control-icon').click(function () {
+  $(this).toggleClass('fa-times');
+  $('input[type="text"]').fadeToggle(500);
+});
